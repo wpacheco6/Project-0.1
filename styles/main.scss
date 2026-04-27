@@ -2,32 +2,32 @@
 @use 'partials/mixins';
 
 .navigation { 
-    background-color: colors.$dark-background;
-    padding: 15px;
-    margin-bottom: 50px;
+  background-color: colors.$dark-background;
+  padding: 15px;
+  margin-bottom: 50px;
+  a {
+    color: #ebe7e7;
+    text-transform: uppercase;
+  }
+  nav {
+    display: inline-block;
+    float: right;
     a {
-      color: #ebe7e7;
-      text-transform: uppercase;
+      text-decoration: none;
+      margin-left: 5px;
+      margin-right: 5px;
     }
-    nav {
-      display: inline-block;
-      float: right;
-      a {
-        text-decoration: none;
-        margin-left: 5px;
-        margin-right: 5px;
-      }
-    }
+  }
 }
 
 .content {
-    a {
+  a {
     color: colors.$primary-color;
-    }
+  }
 }
 
 .feature-image {
-    display: inline-block;
+  display: inline-block;
 }
 
 .content {
