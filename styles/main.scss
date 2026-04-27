@@ -1,12 +1,12 @@
 @use 'partials/colors';
 @use 'partials/mixins';
 
-.navigation { 
+.navigation{
   background-color: colors.$dark-background;
   padding: 15px;
   margin-bottom: 50px;
   a {
-    color: #ebe7e7;
+    color: white;
     text-transform: uppercase;
   }
   nav {
